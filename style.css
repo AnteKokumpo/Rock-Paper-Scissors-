@@ -1,0 +1,61 @@
+.main-page {
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.main-container {
+    height: 720px;
+    width: 1080px;
+    margin:auto 0;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.buttons {
+    font-weight: 600;
+    height: 75px;
+    width: 125px;
+    margin: 25px;
+}
+
+#result {
+    font-size: 48px;
+    font-weight: 600;
+    color: black;
+}
+
+.resultsuccess {
+    font-size: 32px;
+    color: #14A44D;
+}
+
+.resultfail {
+    font-size: 32px;
+    color: #DC4C64;
+}
+
+.reload{
+    text-align: center;
+}
+
+.rock-img {
+    height: 25px;
+    background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/270a.svg");;
+    background-size: 100% 100%;
+    transform: rotate(90deg);
+}
+.paper-img {
+    height: 25px;
+    background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/270b.svg");;
+    background-size: 100% 100%;
+    transform: rotate(90deg);
+}
+.scissors-img {
+    height: 35px;
+    background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/270c.svg");
+    background-size: 100% 100%;
+    transform: rotate(90deg);
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+    <div class="container-fluid bg-dark main-page">
+        <div class="container bg-warning main-container">
+            <h1 class="text-white">Rock  Paper  Scissors</h1>
+            
+            <div class="row py-5">
+                <!--  Column for player scoreboard  -->                
+                <div class="col"> 
+                    <h3>Person : 
+                        <p class="playerScore">0</p>
+                    </h3>
+                </div>
+                <!--  Column for computer scoreboard  -->                
+                <div class="col">
+                    <h3>Computer : 
+                        <p class="computerScore">0</p>
+                    </h3>
+                </div>
+
+                <!--  Container for move choosing and buttons  -->                
+                <div class="container py-5">
+                    <h2 class="move">Choose your move</h2>
+                    <h5 class="movesleft">Moves Left : 5</h5>
+                    
+                    <!--  Container for buttons  -->                
+                    <div class="container mt-5">
+
+                        <button id="rock" class="btn btn-dark buttons">Rock
+                            <div class="rock-img"></div>
+                        </button>
+                                        
+                        <button id="paper" class="btn btn-dark buttons">Paper
+                            <div class="paper-img"></div>
+                        </button>
+                                            
+                        <button id="scissors" class="btn btn-dark buttons">Scissors
+                            <div class="scissors-img"></div>
+                        </button>
+                                                 
+                    </div>
+                </div>
+                    
+                <div id="result"> </div>
+                
+                <div class="container d-flex justify-content-center mt-5">
+                    <div class="reload"></div>
+                </div>
+
+            </div>
+                       
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
